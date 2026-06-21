@@ -7,12 +7,13 @@
 
 ## 最新期刊 (Latest Digest)
 
-- [2026-06-14](digests/2026-06-14.md) — Claude Fable 5（首个 Mythos 级 GA 模型）+ Claude Code v2.1.169-176（safe-mode、嵌套 sub-agent 5 层、enforceAvailableModels）；Codex CLI v0.138-139；Gemini CLI 停服倒计时 4 天；Code with Claude 东京站
+- [2026-06-21](digests/2026-06-21.md) — Claude Code v2.1.178-183（Agent Teams 重组、auto mode 安全守卫、Agent SDK 计费暂停）；Codex CLI v0.140-141（/import 从 Claude Code 迁入、Noise 加密远程执行）；Gemini CLI 停服落地，CI/CD 大面积中断
 
 ## 历史存档 (Archive)
 
 | 日期 | Claude Code | Codex CLI | 竞品雷达 |
 |------|------------|-----------|---------|
+| [2026-06-21](digests/2026-06-21.md) | v2.1.178–183：Agent Teams 重组（隐式团队）、Tool(param:value) 权限规则、/config key=value、auto mode 安全守卫（阻断破坏性 git 命令）、Agent SDK 计费变更暂停 | v0.140.0：/usage 视图、codex delete、/import 迁移工具；v0.141.0：Noise 加密远程执行 | Gemini CLI 6/18 停服落地；免费配额降 98%；Terminal-Bench 2.1 新榜单 |
 | [2026-06-14](digests/2026-06-14.md) | v2.1.169–176：Fable 5 集成、safe-mode、/cd 命令、嵌套 sub-agent（5 层）、enforceAvailableModels、会话标题本地化 | v0.138.0：CLI↔Desktop 移交；v0.139.0：code 模式 Web 搜索 | Gemini CLI 停服倒计时；Cursor Auto-review；Kiro 并行 Spec；OpenCode 171K stars |
 | [2026-06-07](digests/2026-06-07.md) | v2.1.160–168：Dynamic Workflows（ultracode）、fallbackModel、企业版本锁定、GitHub Action 安全修复 | v0.137.0：会话归档、OSC 8 超链接、Multi-agent v2 | Windsurf→Devin Desktop；Antigravity CLI v2.0.11；Cursor v3.7 |
 | [2026-05-31](digests/2026-05-31.md) | v2.1.152–158：/code-review --fix、Opus 4.8、Dynamic Workflows、.claude/skills 自动加载 | v0.134.0：历史搜索；v0.135.0：codex doctor 强化、Vim 文本对象 | Antigravity CLI v1.0.2 GA；OpenCode 161K stars；GitHub Copilot 接入 Opus 4.8 |
