@@ -7,12 +7,13 @@
 
 ## 最新期刊 (Latest Digest)
 
-- [2026-07-05](digests/2026-07-05.md) — Claude Code v2.1.196-201（Sonnet 5 默认模型、Fable 5 恢复、后台 Agent 自动创建 PR、Chrome GA、权限模式重命名）；Codex CLI v0.142.4-5 + alpha 系列（WebSocket 安全修复、多 Agent v2）；GuardFall 安全研究；Apple Safari MCP 服务器；Cursor iOS Beta；Cascade EOL / Devin Local GA
+- [2026-07-12](digests/2026-07-12.md) — Claude Code v2.1.202-207（内置浏览器、Auto Mode 全平台 GA、/doctor 诊断、FedRAMP 公测）；Codex CLI v0.143.0-v0.144.1（ChatGPT 桌面合并、JetBrains 推荐 Agent、Writes 审批模式）；GhostApproval + Friendly Fire 安全披露；Cursor v3.11 Side Chats；gstack 跨会话记忆
 
 ## 历史存档 (Archive)
 
 | 日期 | Claude Code | Codex CLI | 竞品雷达 |
 |------|------------|-----------|---------|
+| [2026-07-12](digests/2026-07-12.md) | v2.1.202–207：内置浏览器、Auto Mode 全平台 GA、/doctor 诊断、FedRAMP 公测、Dynamic Workflow 尺寸、macOS 性能修复 | v0.143.0–v0.144.1：ChatGPT 桌面合并、JetBrains 推荐 Agent、Writes 审批模式、Remote Plugins 默认启用、GPT-5.6 Bedrock | Cursor v3.11 Side Chats；Devin v3.4.27 自治 Diff；Gemini CLI v0.50.0；Kiro CLI v2.12.0 V3 预览 |
 | [2026-07-05](digests/2026-07-05.md) | v2.1.196–201：Sonnet 5 默认模型、Fable 5 恢复、后台 Agent 自动创建 PR、Chrome GA、子 Agent 后台 GA、堆叠 Slash-Skill、权限模式 Default→Manual | v0.142.4–5：WebSocket 日志安全修复；alpha.32–36：Nagle 禁用（延迟降 41%）、多 Agent v2 通信统一、TTFT 遥测 | Cursor iOS Beta + Bugbot 3x；Cascade EOL / Devin Local GA；Cline v4.0.x；Kiro CLI v2.11.0 接替 Amazon Q |
 | [2026-06-28](digests/2026-06-28.md) | v2.1.185–191：MCP CLI 认证（login/logout）、sandbox.credentials 凭据隔离、/rewind 跨 /clear 回溯、流式 CPU 降 37%、JetBrains Copilot agent preview | v0.142.0：Remote GA（QR 配对）、Token Budget、索引式 Web 搜索、多 Agent 委托配置；v0.142.2：MCP 工具搜索默认启用 | GPT-5.6 Sol 限定预览（Terminal-Bench 91.9%）；Agentjacking 攻击 85% 成功率；Amazon Q MCP 漏洞 CVE-2026-12957 |
 | [2026-06-21](digests/2026-06-21.md) | v2.1.178–183：Agent Teams 重组（隐式团队）、Tool(param:value) 权限规则、/config key=value、auto mode 安全守卫（阻断破坏性 git 命令）、Agent SDK 计费变更暂停 | v0.140.0：/usage 视图、codex delete、/import 迁移工具；v0.141.0：Noise 加密远程执行 | Gemini CLI 6/18 停服落地；免费配额降 98%；Terminal-Bench 2.1 新榜单 |
