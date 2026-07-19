@@ -7,12 +7,13 @@
 
 ## 最新期刊 (Latest Digest)
 
-- [2026-07-12](digests/2026-07-12.md) — Claude Code v2.1.202-207（内置浏览器、Auto Mode 全平台 GA、/doctor 诊断、FedRAMP 公测）；Codex CLI v0.143.0-v0.144.1（ChatGPT 桌面合并、JetBrains 推荐 Agent、Writes 审批模式）；GhostApproval + Friendly Fire 安全披露；Cursor v3.11 Side Chats；gstack 跨会话记忆
+- [2026-07-19](digests/2026-07-19.md) — Claude Code v2.1.208-215（40+ 安全修复、/fork 重构、屏幕阅读器模式、内存泄漏修复）；Codex CLI v0.144.2-v0.144.6（Codex Micro 硬件发布、Guardian 回滚、危险命令检测增强）；Grok Build 隐私丑闻与被迫开源；Sophos EDR 报告；Kiro CLI v2.13.0；LM Studio Bionic；MCP 规范倒计时
 
 ## 历史存档 (Archive)
 
 | 日期 | Claude Code | Codex CLI | 竞品雷达 |
 |------|------------|-----------|---------|
+| [2026-07-19](digests/2026-07-19.md) | v2.1.208–215：40+ 安全修复、/fork 重构为后台会话、屏幕阅读器模式、内存泄漏修复、防失控限制、技能自动调用禁止 | v0.144.2–v0.144.6：Codex Micro 硬件、Guardian 回滚、危险命令检测增强、GPT-5.6 上下文恢复 | Grok Build 隐私丑闻；Kiro CLI v2.13.0；Cursor Slack 多仓库；Gemini CLI v0.51.0；OpenCode v1.18.x；Amp "The Dial"；LM Studio Bionic |
 | [2026-07-12](digests/2026-07-12.md) | v2.1.202–207：内置浏览器、Auto Mode 全平台 GA、/doctor 诊断、FedRAMP 公测、Dynamic Workflow 尺寸、macOS 性能修复 | v0.143.0–v0.144.1：ChatGPT 桌面合并、JetBrains 推荐 Agent、Writes 审批模式、Remote Plugins 默认启用、GPT-5.6 Bedrock | Cursor v3.11 Side Chats；Devin v3.4.27 自治 Diff；Gemini CLI v0.50.0；Kiro CLI v2.12.0 V3 预览 |
 | [2026-07-05](digests/2026-07-05.md) | v2.1.196–201：Sonnet 5 默认模型、Fable 5 恢复、后台 Agent 自动创建 PR、Chrome GA、子 Agent 后台 GA、堆叠 Slash-Skill、权限模式 Default→Manual | v0.142.4–5：WebSocket 日志安全修复；alpha.32–36：Nagle 禁用（延迟降 41%）、多 Agent v2 通信统一、TTFT 遥测 | Cursor iOS Beta + Bugbot 3x；Cascade EOL / Devin Local GA；Cline v4.0.x；Kiro CLI v2.11.0 接替 Amazon Q |
 | [2026-06-28](digests/2026-06-28.md) | v2.1.185–191：MCP CLI 认证（login/logout）、sandbox.credentials 凭据隔离、/rewind 跨 /clear 回溯、流式 CPU 降 37%、JetBrains Copilot agent preview | v0.142.0：Remote GA（QR 配对）、Token Budget、索引式 Web 搜索、多 Agent 委托配置；v0.142.2：MCP 工具搜索默认启用 | GPT-5.6 Sol 限定预览（Terminal-Bench 91.9%）；Agentjacking 攻击 85% 成功率；Amazon Q MCP 漏洞 CVE-2026-12957 |
