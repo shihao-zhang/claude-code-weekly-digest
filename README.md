@@ -7,12 +7,17 @@
 
 ## 最新期刊 (Latest Digest)
 
+- [2026-08-09](digests/2026-08-09.md) — Claude Code 自托管环境公测（Team/Enterprise）+ 一周 6 版（Focus 视图、跨会话消息、连续权限加固）；Codex CLI v0.147.0（可移植插件多目录检索、`--approve-for-me` 自动审批、MCP 2026-07-28 适配）；**Meta 携 Muse Code + Muse Spark 1.2 入场**，Contributor 档以数据换 21 倍价差引发争议；Anthropic 确认组建自研芯片团队
+
+### 往期 (Previous)
+
 - [2026-08-02](digests/2026-08-02.md) — Claude Code 本周无新版本（v2.1.220 仍为最新），MCP 2026-07-28 支持登陆 Claude；Codex CLI v0.146.0（239 项变更、命名会话、Claude Code 插件市场互通）；GPT-5.6 Luna 降价 80% + Auto-review 成本降约 10 倍；MCP 2026-07-28 规范正式发布（无状态核心）；Pillar Security 4 款 Agent 8 个沙盒逃逸漏洞
 
 ## 历史存档 (Archive)
 
 | 日期 | Claude Code | Codex CLI | 竞品雷达 |
 |------|------------|-----------|---------|
+| [2026-08-09](digests/2026-08-09.md) | v2.1.221–226：自托管环境公测（`claude self-hosted-runner`）、跨会话消息、Focus 视图（Ctrl+Alt+F）、插件 HTTPS 归档安装 + SHA-256、marketplace owner 通配符、多处权限绕过修复 | v0.147.0：可移植 Agent Plugins 多目录检索、持久化会话分区、`--approve-for-me` 自动审批、导入 Cursor skills、MCP 2026-07-28 支持、密钥脱敏；移除 `exec --full-auto` | **Meta Muse Code 新入场**（Muse Spark 1.2、持久后台 Agent、Contributor 档便宜 21x）；OpenCode v1.18.12–15；Amp orb 档位重排；Anthropic 自研芯片团队 |
 | [2026-08-02](digests/2026-08-02.md) | 无新版本（v2.1.220 为最新）；MCP 2026-07-28 支持登陆 Claude 全线产品 | v0.146.0：239 项变更、命名会话/置顶线程/侧边对话、Agent Plugins manifests、Claude Code + Bedrock 插件市场、线程 fork、远程 Code Mode；GPT-5.6 Luna 降价 80% | OpenCode v1.18.6–11 MCP 兼容抢修；Devin Desktop 企业 SCIM + 审计日志；Kiro CLI 全局 hooks；MCP 2026-07-28 正式发布；Pillar 沙盒逃逸 8 漏洞 |
 | [2026-07-26](digests/2026-07-26.md) | v2.1.215–220：Opus 5 集成、/code-review 后台化、嵌套子 Agent 深度 3、沙盒维度精细化、内存泄漏修复 | v0.145.0：Multi-Agent V2 稳定、音频输入、ChatGPT Voice 集成、/import 扩展、Bedrock 支持 | Claude Opus 5 发布；Cursor Router；Amp 自调度 Agent + Webhook Orbs；Antigravity CLI v1.1.7；Kiro CLI v2.14.0；Kilo Code 被 Anaconda 收购 |
 | [2026-07-19](digests/2026-07-19.md) | v2.1.208–215：40+ 安全修复、/fork 重构为后台会话、屏幕阅读器模式、内存泄漏修复、防失控限制、技能自动调用禁止 | v0.144.2–v0.144.6：Codex Micro 硬件、Guardian 回滚、危险命令检测增强、GPT-5.6 上下文恢复 | Grok Build 隐私丑闻；Kiro CLI v2.13.0；Cursor Slack 多仓库；Gemini CLI v0.51.0；OpenCode v1.18.x；Amp "The Dial"；LM Studio Bionic |
