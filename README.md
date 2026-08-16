@@ -7,16 +7,18 @@
 
 ## 最新期刊 (Latest Digest)
 
-- [2026-08-09](digests/2026-08-09.md) — Claude Code 自托管环境公测（Team/Enterprise）+ 一周 6 版（Focus 视图、跨会话消息、连续权限加固）；Codex CLI v0.147.0（可移植插件多目录检索、`--approve-for-me` 自动审批、MCP 2026-07-28 适配）；**Meta 携 Muse Code + Muse Spark 1.2 入场**，Contributor 档以数据换 21 倍价差引发争议；Anthropic 确认组建自研芯片团队
+- [2026-08-16](digests/2026-08-16.md) — **Claude Code auto mode 8/14 成为 Pro/Max/Team 默认**（分类器接管审批：人类拦截 13.6% vs auto mode 89%），一周 6 版（跨会话 `@` 提及、子 Agent fork 默认、GitLab 全面接入）；Codex CLI 本周无稳定版（0.148.0-alpha 推进至 alpha.20）；Gemini 3.7 Flash 把 Terminal-Bench 2.1 做到 85.8%；**新入场者 oh-my-pi（25.1K stars，hash-anchored edits + LSP/DAP）**；CSA 披露一个 GitHub issue 打穿三家厂商 CI secrets
 
 ### 往期 (Previous)
 
+- [2026-08-09](digests/2026-08-09.md) — Claude Code 自托管环境公测（Team/Enterprise）+ 一周 6 版（Focus 视图、跨会话消息、连续权限加固）；Codex CLI v0.147.0（可移植插件多目录检索、`--approve-for-me` 自动审批、MCP 2026-07-28 适配）；**Meta 携 Muse Code + Muse Spark 1.2 入场**，Contributor 档以数据换 21 倍价差引发争议；Anthropic 确认组建自研芯片团队
 - [2026-08-02](digests/2026-08-02.md) — Claude Code 本周无新版本（v2.1.220 仍为最新），MCP 2026-07-28 支持登陆 Claude；Codex CLI v0.146.0（239 项变更、命名会话、Claude Code 插件市场互通）；GPT-5.6 Luna 降价 80% + Auto-review 成本降约 10 倍；MCP 2026-07-28 规范正式发布（无状态核心）；Pillar Security 4 款 Agent 8 个沙盒逃逸漏洞
 
 ## 历史存档 (Archive)
 
 | 日期 | Claude Code | Codex CLI | 竞品雷达 |
 |------|------------|-----------|---------|
+| [2026-08-16](digests/2026-08-16.md) | **auto mode 8/14 起成为 Pro/Max/Team 新会话默认**（两级分类器）；v2.1.227–233：子 Agent fork 默认开启、`@` 提及其他会话、GitLab 市场/脱敏/MR URL、`/commit-push-pr` 不再自动批准危险 git 标志、Bash memory cgroup、多处权限绕过修复；Compliance API 覆盖 Claude Code | **本周无稳定版**（v0.147.0 仍为最新）；0.148.0-alpha.11–20 每日推进；产品侧对 cyber-capable 模型收紧自动审批默认值；OpenAI × Cerebras Ultrafast 预览（GPT-5.6 Sol 750 tok/s） | **🆕 oh-my-pi 入场**（25.1K stars、hash-anchored edits、LSP+DAP、v17.3.x）；Gemini 3.7 Flash（Terminal-Bench 2.1 85.8%、$0.75/$3.75）；Kiro CLI 2.18 本机 Whisper 语音；OpenCode v1.18.16–18；Cursor Cloud Agent Builds |
 | [2026-08-09](digests/2026-08-09.md) | v2.1.221–226：自托管环境公测（`claude self-hosted-runner`）、跨会话消息、Focus 视图（Ctrl+Alt+F）、插件 HTTPS 归档安装 + SHA-256、marketplace owner 通配符、多处权限绕过修复 | v0.147.0：可移植 Agent Plugins 多目录检索、持久化会话分区、`--approve-for-me` 自动审批、导入 Cursor skills、MCP 2026-07-28 支持、密钥脱敏；移除 `exec --full-auto` | **Meta Muse Code 新入场**（Muse Spark 1.2、持久后台 Agent、Contributor 档便宜 21x）；OpenCode v1.18.12–15；Amp orb 档位重排；Anthropic 自研芯片团队 |
 | [2026-08-02](digests/2026-08-02.md) | 无新版本（v2.1.220 为最新）；MCP 2026-07-28 支持登陆 Claude 全线产品 | v0.146.0：239 项变更、命名会话/置顶线程/侧边对话、Agent Plugins manifests、Claude Code + Bedrock 插件市场、线程 fork、远程 Code Mode；GPT-5.6 Luna 降价 80% | OpenCode v1.18.6–11 MCP 兼容抢修；Devin Desktop 企业 SCIM + 审计日志；Kiro CLI 全局 hooks；MCP 2026-07-28 正式发布；Pillar 沙盒逃逸 8 漏洞 |
 | [2026-07-26](digests/2026-07-26.md) | v2.1.215–220：Opus 5 集成、/code-review 后台化、嵌套子 Agent 深度 3、沙盒维度精细化、内存泄漏修复 | v0.145.0：Multi-Agent V2 稳定、音频输入、ChatGPT Voice 集成、/import 扩展、Bedrock 支持 | Claude Opus 5 发布；Cursor Router；Amp 自调度 Agent + Webhook Orbs；Antigravity CLI v1.1.7；Kiro CLI v2.14.0；Kilo Code 被 Anaconda 收购 |
