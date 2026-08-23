@@ -7,10 +7,11 @@
 
 ## 最新期刊 (Latest Digest)
 
-- [2026-08-16](digests/2026-08-16.md) — **Claude Code auto mode 8/14 成为 Pro/Max/Team 默认**（分类器接管审批：人类拦截 13.6% vs auto mode 89%），一周 6 版（跨会话 `@` 提及、子 Agent fork 默认、GitLab 全面接入）；Codex CLI 本周无稳定版（0.148.0-alpha 推进至 alpha.20）；Gemini 3.7 Flash 把 Terminal-Bench 2.1 做到 85.8%；**新入场者 oh-my-pi（25.1K stars，hash-anchored edits + LSP/DAP）**；CSA 披露一个 GitHub issue 打穿三家厂商 CI secrets
+- [2026-08-23](digests/2026-08-23.md) — **Claude Code `/design` 进入研究预览**（CLI 内产出可编辑 UI artboard）+ 一周 8 版（`claude-api` skill 上下文 20 万→2.5 万 token、`ANTHROPIC_DEFAULT_MODEL`、跨会话 `notify_when_idle`）；Codex CLI 两个稳定版（`codex agents` 看板、`codex queue`、会话 fork/export、Bedrock 内置 provider）；**Cursor Origin 代码托管默认铺开引发数据条款争议**，同日 GitHub 全球宕机 7h47m；MCP 发布新路线图，把「长时循环 + 中途引导」列为第一优先级
 
 ### 往期 (Previous)
 
+- [2026-08-16](digests/2026-08-16.md) — **Claude Code auto mode 8/14 成为 Pro/Max/Team 默认**（分类器接管审批：人类拦截 13.6% vs auto mode 89%），一周 6 版（跨会话 `@` 提及、子 Agent fork 默认、GitLab 全面接入）；Codex CLI 本周无稳定版（0.148.0-alpha 推进至 alpha.20）；Gemini 3.7 Flash 把 Terminal-Bench 2.1 做到 85.8%；**新入场者 oh-my-pi（25.1K stars，hash-anchored edits + LSP/DAP）**；CSA 披露一个 GitHub issue 打穿三家厂商 CI secrets
 - [2026-08-09](digests/2026-08-09.md) — Claude Code 自托管环境公测（Team/Enterprise）+ 一周 6 版（Focus 视图、跨会话消息、连续权限加固）；Codex CLI v0.147.0（可移植插件多目录检索、`--approve-for-me` 自动审批、MCP 2026-07-28 适配）；**Meta 携 Muse Code + Muse Spark 1.2 入场**，Contributor 档以数据换 21 倍价差引发争议；Anthropic 确认组建自研芯片团队
 - [2026-08-02](digests/2026-08-02.md) — Claude Code 本周无新版本（v2.1.220 仍为最新），MCP 2026-07-28 支持登陆 Claude；Codex CLI v0.146.0（239 项变更、命名会话、Claude Code 插件市场互通）；GPT-5.6 Luna 降价 80% + Auto-review 成本降约 10 倍；MCP 2026-07-28 规范正式发布（无状态核心）；Pillar Security 4 款 Agent 8 个沙盒逃逸漏洞
 
@@ -18,6 +19,7 @@
 
 | 日期 | Claude Code | Codex CLI | 竞品雷达 |
 |------|------------|-----------|---------|
+| [2026-08-23](digests/2026-08-23.md) | `/design` 研究预览（artboard 工作流进 CLI/桌面端）；v2.1.234–241 一周 8 版：`claude-api` skill 上下文 20 万→2.5 万 token、限额重置自动续跑、`ANTHROPIC_DEFAULT_MODEL`、`notify_when_idle`、Concise 输出风格、`keybindingFlavor`、插件市场 `headersHelper`、成本估算计入 1.1× 美国推理溢价、`/resume` 四类误判修复；Console Workbench 下线改为 Playground | v0.148.0：`/export` Markdown 导出、`codex exec fork`、会话归档/恢复、`/status` 显示预估成本、Bedrock Runtime 内置 provider、hooks 异步 + 可调 MCP 工具、沙盒 fail-closed；v0.149.0：交互式 `codex agents` 看板、`codex queue`、`/cd` `/pwd` `/cwd`、`codex doctor` 扩展、SDK max/ultra 推理等级；GPT-5.4 将于 8/31 退出 Codex | **Cursor 双线**：Origin 代码托管早期 beta（8/17，付费用户默认开启、数据条款未公布）+ 事件驱动云端 Agent（8/19，订阅 PR/Slack/cron、隔离 VM 子 Agent、不打断式引导）；oh-my-pi 一周 8 版至 v18.0.0（模型作用域 tokenizer）；OpenCode v1.18.19–21（子 Agent 失败带可恢复 `task_id`）；Kiro CLI 2.19 流空闲看门狗 |
 | [2026-08-16](digests/2026-08-16.md) | **auto mode 8/14 起成为 Pro/Max/Team 新会话默认**（两级分类器）；v2.1.227–233：子 Agent fork 默认开启、`@` 提及其他会话、GitLab 市场/脱敏/MR URL、`/commit-push-pr` 不再自动批准危险 git 标志、Bash memory cgroup、多处权限绕过修复；Compliance API 覆盖 Claude Code | **本周无稳定版**（v0.147.0 仍为最新）；0.148.0-alpha.11–20 每日推进；产品侧对 cyber-capable 模型收紧自动审批默认值；OpenAI × Cerebras Ultrafast 预览（GPT-5.6 Sol 750 tok/s） | **🆕 oh-my-pi 入场**（25.1K stars、hash-anchored edits、LSP+DAP、v17.3.x）；Gemini 3.7 Flash（Terminal-Bench 2.1 85.8%、$0.75/$3.75）；Kiro CLI 2.18 本机 Whisper 语音；OpenCode v1.18.16–18；Cursor Cloud Agent Builds |
 | [2026-08-09](digests/2026-08-09.md) | v2.1.221–226：自托管环境公测（`claude self-hosted-runner`）、跨会话消息、Focus 视图（Ctrl+Alt+F）、插件 HTTPS 归档安装 + SHA-256、marketplace owner 通配符、多处权限绕过修复 | v0.147.0：可移植 Agent Plugins 多目录检索、持久化会话分区、`--approve-for-me` 自动审批、导入 Cursor skills、MCP 2026-07-28 支持、密钥脱敏；移除 `exec --full-auto` | **Meta Muse Code 新入场**（Muse Spark 1.2、持久后台 Agent、Contributor 档便宜 21x）；OpenCode v1.18.12–15；Amp orb 档位重排；Anthropic 自研芯片团队 |
 | [2026-08-02](digests/2026-08-02.md) | 无新版本（v2.1.220 为最新）；MCP 2026-07-28 支持登陆 Claude 全线产品 | v0.146.0：239 项变更、命名会话/置顶线程/侧边对话、Agent Plugins manifests、Claude Code + Bedrock 插件市场、线程 fork、远程 Code Mode；GPT-5.6 Luna 降价 80% | OpenCode v1.18.6–11 MCP 兼容抢修；Devin Desktop 企业 SCIM + 审计日志；Kiro CLI 全局 hooks；MCP 2026-07-28 正式发布；Pillar 沙盒逃逸 8 漏洞 |
